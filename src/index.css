@@ -9,5 +9,6 @@
   box-sizing: border-box;
 }
 
-h1 {
+p {
+  font-family: "Open Sans";
 }

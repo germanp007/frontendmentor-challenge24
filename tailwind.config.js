@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         Header: ["Raleway", "sans-serif"],
-        Body: ["Open-Sans", "sans-serif"],
+        // Body: ["Open-Sans", "sans-serif"],
       },
     },
   },
