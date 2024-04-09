@@ -1,4 +1,4 @@
-import LogoComponent from "../../imagesComp/Logo";
+import LogoComponent from "../imagesComp/Logo";
 
 const Navbar = () => {
   return (

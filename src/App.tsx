@@ -1,8 +1,7 @@
 import Form from "./components/form/Form";
 import HeroImage from "./components/hero/HeroImage";
 import Navbar from "./components/nav/Navbar";
-import Section from "./components/section2/Section";
-
+import Section2 from "./components/section2/Section2";
 const App = () => {
   return (
     <>
@@ -30,7 +29,7 @@ const App = () => {
               backgroundImage: "url(/public/images/bg-curve-mobile.svg)",
             }}
           ></div>
-          <Section />
+          <Section2 />
         </article>
       </main>
     </>
