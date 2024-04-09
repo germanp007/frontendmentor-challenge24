@@ -94,7 +94,7 @@ const App = () => {
             </li>
           </ul>
         </div>
-        <div className="text-white w-[318px] m-auto font-light mb-5">
+        <div className="text-white w-[318px] m-auto font-light mb-10">
           <ul>
             <li>
               <a>Contact Us</a>
@@ -107,19 +107,19 @@ const App = () => {
             </li>
           </ul>
         </div>
-        <div className="flex gap-5 justify-center">
-          <div className="border border-white p-2 rounded-full">
+        <div className="flex gap-4 justify-center">
+          <div className="border border-white w-9 h-9 rounded-full grid place-content-center">
             <img
               src={facebook}
               alt="Facebook Logo"
-              className="w-[20px] h-[20px]"
+              className="w-[10px] h-[20px]"
             />
           </div>
-          <div className="border border-white p-2 rounded-full">
-            <img src={twitter} alt="Twitter Logo" width={20} height={20} />
+          <div className="border border-white w-9 h-9 rounded-full grid place-content-center">
+            <img src={twitter} alt="Twitter Logo" width={16} height={20} />
           </div>
-          <div className="border border-white p-2 rounded-full">
-            <img src={instagram} alt="Instagram Logo" width={20} height={20} />
+          <div className="border border-white w-9 h-9 rounded-full grid place-content-center">
+            <img src={instagram} alt="Instagram Logo" width={16} height={20} />
           </div>
         </div>
       </footer>
