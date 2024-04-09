@@ -3,7 +3,7 @@ import arrow from "../../../public/images/icon-arrow.svg";
 import quoteImage from "../../../public/images/icon-quotes.svg";
 const Section2 = () => {
   return (
-    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-5">
+    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[65px] ">
       <img
         src={imageTwo}
         alt="image of people working together"

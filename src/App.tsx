@@ -31,6 +31,17 @@ const App = () => {
           ></div>
           <Section2 />
         </article>
+        <article className="w-full min-h-[350px] bg-DesaturatedBlue flex flex-col justify-center items-center gap-6 py-[60px]">
+          <h2 className="text-white text-[1.1rem] font-semibold tracking-wide">
+            Get early access today
+          </h2>
+          <p className="text-white font-light text-center w-[80%]">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+          <Form />
+        </article>
       </main>
     </>
   );
