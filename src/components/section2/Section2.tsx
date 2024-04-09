@@ -4,7 +4,7 @@ import quoteImage from "../../../public/images/icon-quotes.svg";
 import avatar from "../../../public/images/avatar-testimonial.jpg";
 const Section2 = () => {
   return (
-    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[65px] ">
+    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[105px] ">
       <img
         src={imageTwo}
         alt="image of people working together"
