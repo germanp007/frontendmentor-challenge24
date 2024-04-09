@@ -1,6 +1,11 @@
-import { FormEvent, useState } from "react";
+import { FC, FormEvent, useState } from "react";
 
-const Form = () => {
+type Props = {
+  placeholder: string;
+  title: string;
+};
+
+const Form: FC<Props> = ({ placeholder, title }) => {
   const [email, setEmail] = useState<string>("");
 
   const handleEmail = (e: FormEvent<HTMLFormElement> | string) => {
@@ -27,7 +32,7 @@ const Form = () => {
           type="email"
           name="email"
           value={email}
-          placeholder="Enter your email..."
+          placeholder={placeholder}
           className="w-[318px] border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none"
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -35,7 +40,7 @@ const Form = () => {
           type="submit"
           className="bg-BrightBlue text-white w-[318px] h-11 rounded-sm"
         >
-          Get Started
+          {title}
         </button>
       </form>
     </div>

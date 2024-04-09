@@ -25,7 +25,7 @@ const App = () => {
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <Form />
+          <Form placeholder="Enter your email..." title="Get Started" />
         </article>
         <article>
           <div
@@ -45,7 +45,7 @@ const App = () => {
             extremely generous. If you have any questions, our support team
             would be happy to help you.
           </p>
-          <Form />
+          <Form placeholder="email@example.com" title="Get Started For Free" />
         </article>
       </main>
       <footer className="w-full bg-VeryDarkBlue min-h-[300px] pt-20 pb-20">
