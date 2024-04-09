@@ -1,6 +1,7 @@
 import imageTwo from "../../../public/images/illustration-2.svg";
 import arrow from "../../../public/images/icon-arrow.svg";
 import quoteImage from "../../../public/images/icon-quotes.svg";
+import avatar from "../../../public/images/avatar-testimonial.jpg";
 const Section2 = () => {
   return (
     <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[65px] ">
@@ -32,11 +33,18 @@ const Section2 = () => {
         <figure className="px-4 h-[23px]">
           <img src={quoteImage} alt="quote" />
         </figure>
-        <p className="text-[.85rem] w-[90%] m-auto">
+        <p className="text-[.85rem] w-[90%] m-auto mb-3 leading-6">
           Fylo has improved our team productivity by an order of magnitude.
           Since making the switch our team has become a well-oiled collaboration
           machine.
         </p>
+        <div className="text-VeryDarkBlue flex gap-2 w-[90%] m-auto">
+          <img src={avatar} alt="avatar" className="rounded-full h-8 w-8" />
+          <div>
+            <h2 className="text-[.7rem] font-bold">Kyle Burton</h2>
+            <h3 className="text-[.55rem] font-light">Founder & CEO, Huddle</h3>
+          </div>
+        </div>
       </div>
     </section>
   );
