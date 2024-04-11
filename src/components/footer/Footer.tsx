@@ -79,6 +79,12 @@ const Footer = () => {
           <img src={instagram} alt="Instagram Logo" width={16} height={20} />
         </div>
       </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut obcaecati
+        rem temporibus doloribus vero officiis, distinctio, maxime nisi commodi
+        rerum sapiente, fuga quibusdam. Dolorum rem totam veniam tenetur et
+        commodi.
+      </div>
     </footer>
   );
 };
