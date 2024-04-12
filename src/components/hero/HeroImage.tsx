@@ -5,7 +5,7 @@ const HeroImage = () => {
       <img
         src={heroImage}
         alt="Hero"
-        className="w-[90%] h-auto max-w-[505px] lg:h-[400px]"
+        className="w-[90%] h-auto max-w-[505px] md:h-[400px]"
       />
     </article>
   );

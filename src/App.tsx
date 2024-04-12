@@ -10,7 +10,7 @@ const App = () => {
         <Navbar />
       </header>
       <main>
-        <div className="md:flex ">
+        <div className="lg:flex ">
           <HeroImage />
           <article className="mb-[90px] md:order-1 flex-1">
             <h1 className="font-Header text-center text-2xl text-VeryDarkBlue w-[318px] m-auto  font-semibold mb-[32px] mt-[64px] lg:w-[480px] lg:text-[32px] lg:text-start lg:leading-[54px]">
