@@ -22,7 +22,7 @@ const Form: FC<Props> = ({ placeholder, title }) => {
   return (
     <div>
       <form
-        className="flex flex-col items-center"
+        className="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-4"
         onSubmit={(e) => {
           e.preventDefault();
           handleEmail(email);
@@ -33,12 +33,12 @@ const Form: FC<Props> = ({ placeholder, title }) => {
           name="email"
           value={email}
           placeholder={placeholder}
-          className="w-[318px] border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none"
+          className="w-[318px] border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none lg:m-0 lg:w-[300px]"
           onChange={(e) => setEmail(e.target.value)}
         />
         <button
           type="submit"
-          className="bg-BrightBlue text-white w-[318px] h-11 rounded-sm"
+          className="bg-BrightBlue text-white w-[318px] h-11 rounded-sm lg:w-[200px]"
         >
           {title}
         </button>

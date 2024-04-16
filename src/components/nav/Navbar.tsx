@@ -2,7 +2,7 @@ import LogoComponent from "../imagesComp/Logo";
 
 const Navbar = () => {
   return (
-    <nav className="flex w-full h-[100px] justify-between items-center px-6 mb-[90px] sm:h-[180px] md:p-12">
+    <nav className="flex w-full h-[100px] justify-between items-center px-6 mb-[90px] sm:h-[180px] md:px-20 lg:mb-0">
       <LogoComponent />
       <ul className="font-Header flex justify-between list-none  text-[16px] gap-3 tracking-wide font-light sm:gap-10">
         <li>

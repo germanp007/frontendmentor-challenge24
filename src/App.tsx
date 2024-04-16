@@ -13,10 +13,10 @@ const App = () => {
         <div className="lg:flex ">
           <HeroImage />
           <article className="mb-[90px] md:order-1 flex-1">
-            <h1 className="font-Header text-center text-2xl text-VeryDarkBlue w-[318px] m-auto  font-semibold mb-[32px] mt-[64px] lg:w-[480px] lg:text-[32px] lg:text-start lg:leading-[54px]">
+            <h1 className="font-Header text-center text-2xl text-VeryDarkBlue w-[318px] m-auto  font-semibold mb-[32px] mt-[64px] lg:w-[520px] lg:text-start lg:leading-[54px] lg:text-[2.5rem]">
               All your files in one secure location, accessible anywhere.
             </h1>
-            <p className=" text-[0.95rem] leading-6 tracking-[0.015rem] text-VeryDarkBlue w-[318px] m-auto text-center mb-[48px] md:text-[17.6px] md:text-start md:w-[480px]">
+            <p className=" text-[0.95rem] leading-6 tracking-[0.015rem] text-VeryDarkBlue w-[318px] m-auto text-center mb-[48px] md:text-[17.6px] md:text-start md:w-[520px]">
               {" "}
               Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
