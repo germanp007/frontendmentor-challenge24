@@ -36,7 +36,7 @@ const App = () => {
           <Section2 />
         </article>
         <article className="w-full min-h-[350px] bg-DesaturatedBlue flex flex-col justify-center items-center gap-6 py-[60px] md:flex-row">
-          <div className="flex flex-col justify-start lg:w-[50%]">
+          <div className="flex flex-col items-center lg:w-[50%] lg:items-start">
             <h2 className="text-white text-[1.1rem] font-semibold tracking-wide md:text-[2rem]">
               Get early access today
             </h2>
