@@ -4,13 +4,13 @@ import quoteImage from "../../../public/images/icon-quotes.svg";
 import avatar from "../../../public/images/avatar-testimonial.jpg";
 const Section2 = () => {
   return (
-    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[105px] lg:flex">
+    <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[105px] lg:flex lg:p-24">
       <img
         src={imageTwo}
         alt="image of people working together"
         className="w-[90%] h-auto mx-auto mb-[7rem] max-w-[500px] order-2 md:h-[400px]"
       />
-      <div className="lg:pl-12">
+      <div>
         <div>
           <h2 className="font-Header text-[1.1rem] text-VeryDarkBlue font-semibold text-center mb-8 md:text-left md:text-[2.5rem] lg:w-[520px]">
             {" "}
