@@ -20,9 +20,17 @@ const Form: FC<Props> = ({ placeholder, title }) => {
     }
   };
   return (
-    <div>
+    <div
+      className={`${
+        placeholder === "email@example.com" ? "w-[50%] items-start" : ""
+      }"`}
+    >
       <form
-        className="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-4"
+        className={`flex flex-col ${
+          placeholder === "email@example.com" ? "items-start" : "items-center"
+        } lg:${
+          placeholder === "email@example.com" ? "" : "flex-row"
+        } lg:justify-center lg:gap-4`}
         onSubmit={(e) => {
           e.preventDefault();
           handleEmail(email);
@@ -33,7 +41,9 @@ const Form: FC<Props> = ({ placeholder, title }) => {
           name="email"
           value={email}
           placeholder={placeholder}
-          className="w-[318px] border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none lg:m-0 lg:w-[300px]"
+          className={`border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none lg:m-0 lg:${
+            placeholder === "email@example.com" ? "w-full" : "w-[318px]"
+          }`}
           onChange={(e) => setEmail(e.target.value)}
         />
         <button
