@@ -35,7 +35,7 @@ const App = () => {
           ></div>
           <Section2 />
         </article>
-        <article className="w-full min-h-[350px] bg-DesaturatedBlue flex flex-col justify-between items-center md:flex-row px-24 gap-32">
+        <article className="w-full gap-16 min-h-[350px] bg-DesaturatedBlue flex flex-col justify-center lg:justify-between items-center md:flex-row lg:px-24 lg:gap-32">
           <div className="flex flex-col items-center lg:w-[50%] lg:items-start">
             <h2 className="text-white text-[1.1rem] font-semibold tracking-wide md:text-[2rem]">
               Get early access today

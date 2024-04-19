@@ -22,7 +22,7 @@ const Form: FC<Props> = ({ placeholder, title }) => {
   return (
     <div
       className={`${
-        placeholder === "email@example.com" ? "w-[50%] items-start" : ""
+        placeholder === "email@example.com" ? "md:w-[50%] items-start" : ""
       }"`}
     >
       <form
@@ -41,7 +41,7 @@ const Form: FC<Props> = ({ placeholder, title }) => {
           name="email"
           value={email}
           placeholder={placeholder}
-          className={`border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none lg:m-0 lg:${
+          className={`w-[318px] border border-VeryDarkBlue h-11 rounded-sm px-5 mb-4 focus:outline-none lg:m-0 lg:${
             placeholder === "email@example.com" ? "w-full" : "w-[318px]"
           }`}
           onChange={(e) => setEmail(e.target.value)}
