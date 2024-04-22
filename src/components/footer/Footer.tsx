@@ -6,7 +6,7 @@ import twitter from "../../../public/images/twitter.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-VeryDarkBlue min-h-[300px] pt-20 pb-20 lg:flex">
+    <footer className="w-full bg-VeryDarkBlue min-h-[300px] pt-20 pb-20 lg:flex md:px-16">
       <div className="flex flex-col justify-between w-[318px] h-[130px] m-auto mb-[50px]">
         <svg width="166" height="49" xmlns="http://www.w3.org/2000/svg">
           <defs>

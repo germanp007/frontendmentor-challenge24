@@ -28,10 +28,10 @@ const App = () => {
 
         <article>
           <div
-            className="w-full h-[114px] bg-no-repeat bg-cover bg-center"
-            style={{
-              backgroundImage: "url(/public/images/bg-curve-mobile.svg)",
-            }}
+            className="w-full h-[114px] bg-no-repeat bg-cover bg-center  bg-mobile sm:bg-desktop"
+            // style={{
+            //   backgroundImage: "url(/public/images/bg-curve-desktop.svg)",
+            // }}
           ></div>
           <Section2 />
         </article>

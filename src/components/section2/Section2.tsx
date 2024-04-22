@@ -6,7 +6,7 @@ const Section2 = () => {
   return (
     <section className="bg-LightGrayishBlue w-full min-h-[300px] py-1 pb-[105px] lg:flex lg:p-24">
       <div
-        className="w-full h-auto mx-auto mb-[7rem] order-2 md:h-[400px] bg-contain bg-no-repeat bg-right"
+        className="w-full h-[400px] mx-auto mb-[7rem] order-2 md:h-[400px] bg-contain bg-no-repeat bg-center"
         style={{
           backgroundImage: "url(/public/images/illustration-2.svg)",
         }}

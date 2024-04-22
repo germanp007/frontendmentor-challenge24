@@ -19,3 +19,13 @@ li {
 .card {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
+
+.bg-mobile {
+  background-image: url(/public/images/bg-curve-mobile.svg);
+}
+
+@media (min-width: 640px) {
+  .sm\:bg-desktop {
+    background-image: url(/public/images/bg-curve-desktop.svg);
+  }
+}

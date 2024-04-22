@@ -22,15 +22,15 @@ const Form: FC<Props> = ({ placeholder, title }) => {
   return (
     <div
       className={`${
-        placeholder === "email@example.com" ? "md:w-[50%] items-start" : ""
-      }"`}
+        placeholder === "email@example.com"
+          ? "md:w-[50%] items-start"
+          : "items-center"
+      } `}
     >
       <form
-        className={`flex flex-col ${
+        className={`flex flex-col justify-center ${
           placeholder === "email@example.com" ? "items-start" : "items-center"
-        } lg:${
-          placeholder === "email@example.com" ? "" : "flex-row"
-        } lg:justify-center lg:gap-4`}
+        } ${placeholder === "email@example.com" ? "" : "lg:flex-row"} lg:gap-4`}
         onSubmit={(e) => {
           e.preventDefault();
           handleEmail(email);
