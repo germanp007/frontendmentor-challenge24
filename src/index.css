@@ -23,6 +23,9 @@ li {
 .bg-mobile {
   background-image: url(/public/images/bg-curve-mobile.svg);
 }
+.divImage {
+  background-image: url(/public/images/illustration-2.svg);
+}
 
 @media (min-width: 640px) {
   .sm\:bg-desktop {
