@@ -1,4 +1,4 @@
-import { FC, FormEvent, useState } from "react";
+import { FC, useState } from "react";
 
 type Props = {
   placeholder: string;
@@ -7,17 +7,11 @@ type Props = {
 
 const Form: FC<Props> = ({ placeholder, title }) => {
   const [email, setEmail] = useState<string>("");
-  console.log(email);
-  const handleEmail = (e: FormEvent<HTMLFormElement> | string) => {
-    if (typeof e === "string") {
-      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      const isValidEmail = regex.test(e);
-      if (isValidEmail) {
-        return true;
-      } else {
-        return false;
-      }
-    }
+  const [isValidEmail, setIsValidEmail] = useState<boolean | null>(null);
+  const handleEmail = () => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const isValidEmail = regex.test(email);
+    setIsValidEmail(isValidEmail);
   };
   return (
     <div
@@ -33,7 +27,7 @@ const Form: FC<Props> = ({ placeholder, title }) => {
         } ${placeholder === "email@example.com" ? "" : "lg:flex-row"} lg:gap-4`}
         onSubmit={(e) => {
           e.preventDefault();
-          handleEmail(email);
+          handleEmail();
         }}
       >
         <input
@@ -52,6 +46,9 @@ const Form: FC<Props> = ({ placeholder, title }) => {
         >
           {title}
         </button>
+        {isValidEmail === false && email.length > 0 && (
+          <p style={{ color: "red" }}>Please Check your Email</p>
+        )}
       </form>
     </div>
   );
