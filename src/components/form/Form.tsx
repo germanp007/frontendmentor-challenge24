@@ -40,16 +40,19 @@ const Form: FC<Props> = ({ placeholder, title }) => {
           }`}
           onChange={(e) => setEmail(e.target.value)}
         />
+
         <button
           type="submit"
           className="bg-BrightBlue text-white w-[318px] h-11 rounded-sm lg:w-[200px]"
         >
           {title}
         </button>
-        {isValidEmail === false && email.length > 0 && (
-          <p style={{ color: "red" }}>Please Check your Email</p>
-        )}
       </form>
+      {isValidEmail === false && email.length > 0 && (
+        <p style={{ color: "red", textAlign: "center" }}>
+          Please Check your Email
+        </p>
+      )}
     </div>
   );
 };
