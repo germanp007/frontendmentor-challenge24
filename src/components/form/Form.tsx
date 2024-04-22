@@ -7,7 +7,7 @@ type Props = {
 
 const Form: FC<Props> = ({ placeholder, title }) => {
   const [email, setEmail] = useState<string>("");
-
+  console.log(email);
   const handleEmail = (e: FormEvent<HTMLFormElement> | string) => {
     if (typeof e === "string") {
       const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -37,7 +37,7 @@ const Form: FC<Props> = ({ placeholder, title }) => {
         }}
       >
         <input
-          type="email"
+          type="text"
           name="email"
           value={email}
           placeholder={placeholder}

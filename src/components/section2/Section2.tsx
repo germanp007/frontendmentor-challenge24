@@ -19,11 +19,11 @@ const Section2 = () => {
       /> */}
       <div>
         <div>
-          <h2 className="font-Header text-[1.1rem] text-VeryDarkBlue font-semibold text-center mb-8 md:text-left md:text-[2.5rem] lg:w-[520px]">
+          <h2 className="font-Header text-[1.1rem] text-VeryDarkBlue font-semibold text-center mb-8 lg:text-left sm:text-[2rem] md:text-[2.5rem] lg:w-[520px]">
             {" "}
             Stay productive, wherever you are
           </h2>
-          <p className="  text-VeryDarkBlue text-left w-[318px] mx-auto mb-10 text-[15.2px] lg:w-[520px] md:text-[17.6px]">
+          <p className="  text-VeryDarkBlue text-left w-[318px] mx-auto mb-10 text-[15.2px] md:w-[520px] md:text-[17.6px]">
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs. <br /> <br />{" "}
             Securely share files and folders with friends, family and colleagues

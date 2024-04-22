@@ -64,7 +64,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="flex gap-4 justify-center">
+      <div className="flex gap-4 justify-center items-center">
         <div className="border border-white w-9 h-9 rounded-full grid place-content-center">
           <img
             src={facebook}
